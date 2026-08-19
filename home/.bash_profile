@@ -3,6 +3,5 @@
 # Get the aliases and functions
 [ -f $HOME/.bashrc ] && . $HOME/.bashrc
 
-export JAVA_HOME="$HOME/jdk/build/linux-x86_64-server-release/images/jdk"
-export PATH="$JAVA_HOME/bin:$PATH"
+export GEODE_SDK=/home/rysiu/.local/share/Geode/sdk
 . "$HOME/.cargo/env"
